@@ -8,8 +8,13 @@ interface DestinationsProps {
 }
 
 const Destinations: React.FC<DestinationsProps> = ({ showAllByDefault = false }) => {
-  const [showAll, setShowAll] = React.useState(showAllByDefault);
-  const displayedDestinations = showAll ? destinations : destinations.slice(0, 3);
+  const [visibleCount, setVisibleCount] = React.useState(3);
+  const displayedDestinations = destinations.slice(0, visibleCount);
+  const hasMore = visibleCount < destinations.length;
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => Math.min(prev + 3, destinations.length));
+  };
 
   return (
     <div id="destinations" className="py-16 bg-white">
@@ -20,10 +25,10 @@ const Destinations: React.FC<DestinationsProps> = ({ showAllByDefault = false })
             <DestinationCard key={destination.id} destination={destination} />
           ))}
         </div>
-        {!showAll && destinations.length > 3 && !showAllByDefault && (
+        {hasMore && (
           <div className="mt-12 text-center">
             <button
-              onClick={() => setShowAll(true)}
+              onClick={handleLoadMore}
               className="btn btn-outline group"
             >
               <span>Ver Mais Destinos</span>

@@ -24,7 +24,7 @@ const DestinationDetail = () => {
   }
 
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-24 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link 
           to="/destinos" 

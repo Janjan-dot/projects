@@ -3,17 +3,17 @@ import { DestinationType } from '../types/destinations';
 export const destinations: DestinationType[] = [
   {
     id: 1,
-    name: 'Praias de Maragogi',
-    image: 'https://cdn.pixabay.com/photo/2021/07/26/16/50/resort-6494750_1280.jpg',
+    name: 'Porto Seguro',
+    image: 'https://cdn.pixabay.com/photo/2014/11/20/16/54/colored-ribbons-539454_1280.jpg',
     price: 2499,
     groupSize: '2-8',
-    dates: 'Mar 2024 - Out 2024',
+    dates: 'Fev - Mar - Abr - Ago - Set - Out - Dez 2025',
     whatsapp: 'https://wa.me/5538998850202',
-    availability: 8,
+    availability: 1,
     maxSpots: 12,
-    description: 'Descubra o Caribe Brasileiro em Maragogi, com suas águas cristalinas e piscinas naturais deslumbrantes.',
+    description: 'Venha conhecer Porto Seguro: história, praias paradisíacas e o encanto da Bahia em cada amanhecer!',
     duration: '5 dias / 4 noites',
-    location: 'Maragogi, Alagoas',
+    location: 'Porto Seguro, Bahia',
     included: [
       'Hospedagem em resort all-inclusive',
       'Passeio de catamarã às piscinas naturais',
@@ -77,9 +77,9 @@ export const destinations: DestinationType[] = [
       'Transferência bancária'
     ],
     gallery: [
-      'https://cdn.pixabay.com/photo/2016/01/20/14/48/alagoas-1151651_1280.jpg',
-      'https://cdn.pixabay.com/photo/2016/11/02/01/32/maragogi-1790201_1280.jpg',
-      'https://cdn.pixabay.com/photo/2021/07/26/16/51/barra-grande-beach-6494754_1280.jpg'
+      'https://cdn.pixabay.com/photo/2017/02/08/12/22/trancoso-2048683_1280.jpg',
+      'https://cdn.pixabay.com/photo/2017/04/24/20/33/praia-2257767_1280.jpg',
+      'https://cdn.pixabay.com/photo/2014/07/29/15/35/beach-404633_1280.jpg'
     ]
   },
   {
@@ -88,11 +88,11 @@ export const destinations: DestinationType[] = [
     image: 'https://cdn.pixabay.com/photo/2020/04/24/00/51/balneario-camboriu-5084547_1280.jpg',
     price: 4899,
     groupSize: '4-12',
-    dates: 'Jun 2024 - Set 2024',
+    dates: 'Out 2025',
     whatsapp: 'https://wa.me/5538998850202',
     availability: 6,
     maxSpots: 10,
-    description: 'Explore o paraíso ecológico de Balneário Camboriú, com suas praias intocadas e vida marinha exuberante.',
+    description: 'Venha conhecer Balneário Camboriú: praias deslumbrantes, diversão sem fim e momentos inesquecíveis!',
     duration: '6 dias / 5 noites',
     location: 'Balneário Camboriú, Santa Catarina',
     included: [
@@ -180,11 +180,11 @@ export const destinations: DestinationType[] = [
     image: 'https://cdn.pixabay.com/photo/2016/02/12/23/40/salvador-1197085_1280.jpg',
     price: 3599,
     groupSize: '2-6',
-    dates: 'Abr 2024 - Out 2024',
+    dates: 'Out 2025',
     whatsapp: 'https://wa.me/5538998850202',
     availability: 4,
     maxSpots: 6,
-    description: 'Aventure-se pelo deserto brasileiro, com suas dunas e lagoas de águas cristalinas em um cenário único no mundo.',
+    description: 'Venha conhecer Salvador: praias paradisíacas, cultura vibrante e o melhor da Bahia te espera!',
     duration: '4 dias / 3 noites',
     location: 'Salvador, Bahia',
     included: [
@@ -249,14 +249,14 @@ export const destinations: DestinationType[] = [
   {
     id: 4,
     name: 'Jericoacoara',
-    image: 'https://cdn.pixabay.com/photo/2017/05/27/03/02/dune-2347495_1280.jpg',
+    image: 'https://images.unsplash.com/photo-1524943999231-42946c42ee78?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: 2899,
     groupSize: '4-10',
-    dates: 'Mai 2024 - Nov 2024',
+    dates: 'Set 2025',
     whatsapp: 'https://wa.me/5538998850202',
     availability: 6,
     maxSpots: 10,
-    description: 'Explore as belezas naturais da Chapada Diamantina, com suas cachoeiras, grutas e montanhas deslumbrantes.',
+    description: 'Venha conhecer Jericoacoara: dunas encantadoras, mar cristalino e a paz que você merece!',
     duration: '5 dias / 4 noites',
     location: 'Jericoacoara, Ceará',
     included: [
@@ -325,7 +325,7 @@ export const destinations: DestinationType[] = [
     gallery: [
       'https://cdn.pixabay.com/photo/2015/03/23/19/22/jericoacoara-686519_1280.jpg',
       'https://cdn.pixabay.com/photo/2016/08/21/15/00/jericoacoara-1609845_1280.jpg',
-      'https://images.unsplash.com/photo-1524943999231-42946c42ee78?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      'https://cdn.pixabay.com/photo/2017/05/27/03/02/dune-2347495_1280.jpg'
     ]
   },
   {
@@ -334,11 +334,11 @@ export const destinations: DestinationType[] = [
     image: 'https://cdn.pixabay.com/photo/2014/03/26/23/02/maceio-299107_1280.jpg',
     price: 3299,
     groupSize: '2-8',
-    dates: 'Mar 2024 - Dez 2024',
+    dates: 'Jan - Abr 2025',
     whatsapp: 'https://wa.me/5538998850202',
     availability: 3,
     maxSpots: 8,
-    description: 'Mergulhe nas águas cristalinas de Maceió e descubra um mundo subaquático incrível.',
+    description: 'Venha conhecer Maceió: praias de águas cristalinas, coqueirais deslumbrantes e o paraíso alagoano te espera!',
     duration: '4 dias / 3 noites',
     location: 'Maceió, Alagoas',
     included: [
@@ -398,6 +398,150 @@ export const destinations: DestinationType[] = [
       'https://cdn.pixabay.com/photo/2017/11/07/00/31/sunset-2925308_1280.jpg',
       'https://cdn.pixabay.com/photo/2018/10/16/16/32/sea-3751843_1280.jpg',
       'https://cdn.pixabay.com/photo/2015/04/28/23/15/travel-744538_1280.jpg'
+    ]
+  },
+  {
+    id: 6,
+    name: 'Ilhéus',
+    image: 'https://cdn.pixabay.com/photo/2018/09/15/18/20/islets-3680039_1280.jpg',
+    price: 1999,
+    groupSize: '6-12',
+    dates: 'Set 2025',
+    whatsapp: 'https://wa.me/5538998850202',
+    availability: 5,
+    maxSpots: 10,
+    description: 'Venha conhecer Ilhéus: praias paradisíacas, história rica e o encanto do sul da Bahia!',
+    duration: '4 dias / 3 noites',
+    location: 'Ilhéus, Bahia',
+    included: [
+      'Transfer aeroporto-hotel',
+      'Hospedagem com café',
+      'Equipamentos de mergulho',
+      'Ingressos para atrações',
+      'Guia especializado'
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Chegada em Bonito',
+        activities: [
+          'Transfer do aeroporto',
+          'Check-in na pousada',
+          'Visita ao Aquário Natural',
+          'Jantar de boas-vindas'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Gruta do Lago Azul',
+        activities: [
+          'Café da manhã',
+          'Visita à Gruta do Lago Azul',
+          'Flutuação no Rio Sucuri',
+          'Observação de aves'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Aventura e Natureza',
+        activities: [
+          'Café da manhã',
+          'Mergulho no Rio da Prata',
+          'Cachoeira do Aquidaban',
+          'Jantar de despedida'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Retorno',
+        activities: [
+          'Café da manhã',
+          'Tempo livre',
+          'Transfer para o aeroporto'
+        ]
+      }
+    ],
+    paymentMethods: [
+      'Cartão de crédito em até 12x',
+      'PIX com 5% de desconto',
+      'Transferência bancária'
+    ],
+    gallery: [
+      'https://cdn.pixabay.com/photo/2017/06/15/17/24/beach-2406096_1280.jpg',
+      'https://cdn.pixabay.com/photo/2017/12/12/14/58/islets-3014868_1280.jpg',
+      'https://cdn.pixabay.com/photo/2015/02/27/15/36/surf-652262_960_720.jpg'
+    ]
+  },
+  {
+    id: 7,
+    name: 'Cabo Frio',
+    image: 'https://cdn.pixabay.com/photo/2017/07/15/20/53/cabo-frio-2507716_1280.jpg',
+    price: 2999,
+    groupSize: '8-16',
+    dates: 'Abr - Ago 2025',
+    whatsapp: 'https://wa.me/5538998850202',
+    availability: 7,
+    maxSpots: 10,
+    description: 'Venha conhecer Cabo Frio: águas cristalinas, dunas de areia branca e um destino perfeito para relaxar e se aventurar!',
+    duration: '4 dias / 3 noites',
+    location: 'Cabo Frio, Rio de Janeiro',
+    included: [
+      'Transfer aeroporto-hotel',
+      'Hospedagem com café',
+      'Equipamentos de mergulho',
+      'Ingressos para atrações',
+      'Guia especializado'
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Chegada em Bonito',
+        activities: [
+          'Transfer do aeroporto',
+          'Check-in na pousada',
+          'Visita ao Aquário Natural',
+          'Jantar de boas-vindas'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Gruta do Lago Azul',
+        activities: [
+          'Café da manhã',
+          'Visita à Gruta do Lago Azul',
+          'Flutuação no Rio Sucuri',
+          'Observação de aves'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Aventura e Natureza',
+        activities: [
+          'Café da manhã',
+          'Mergulho no Rio da Prata',
+          'Cachoeira do Aquidaban',
+          'Jantar de despedida'
+        ]
+      },
+      {
+        day: 4,
+        title: 'Retorno',
+        activities: [
+          'Café da manhã',
+          'Tempo livre',
+          'Transfer para o aeroporto'
+        ]
+      }
+    ],
+    paymentMethods: [
+      'Cartão de crédito em até 12x',
+      'PIX com 5% de desconto',
+      'Transferência bancária'
+    ],
+    gallery: [
+      'https://cdn.pixabay.com/photo/2017/07/15/20/54/cabo-frio-2507720_1280.jpg',
+      'https://cdn.pixabay.com/photo/2017/05/31/02/47/arraial-do-cabo-2358886_1280.jpg',
+      'https://cdn.pixabay.com/photo/2020/05/06/07/05/arraial-do-cabo-5136403_1280.jpg'
     ]
   }
 ];

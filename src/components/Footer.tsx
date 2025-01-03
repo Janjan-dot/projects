@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const handleAddressClick = () => {
+    window.open('https://maps.app.goo.gl/hKpxiVotSBMT99pa7', '_blank');
+  };
+
   const socialLinks = [
     { icon: Facebook, url: 'https://www.facebook.com/mariaexcursoeseturismo', label: 'Facebook' },
     { icon: Instagram, url: 'https://www.instagram.com/mariaexcursoeseturismo/', label: 'Instagram' },
@@ -14,7 +18,6 @@ const Footer = () => {
     { path: '/destinos', label: 'Destinos' },
     { path: '/sobre', label: 'Sobre Nós' },
     { path: '/contato', label: 'Contato' },
-    { path: '/avaliacoes', label: 'Avaliações' }
   ];
 
   return (
@@ -60,36 +63,34 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Informações de Contato */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start group">
-                <MapPin className="w-5 h-5 text-teal-400 mt-1 mr-3 group-hover:scale-110 transition-transform" />
-                <span className="text-gray-400 group-hover:text-white transition-colors">
-                  Rua das Viagens, 123, São Paulo - SP
-                </span>
-              </li>
-              <li className="flex items-center group">
-                <Phone className="w-5 h-5 text-teal-400 mr-3 group-hover:scale-110 transition-transform" />
-                <a 
-                  href="tel:+551145678900"
-                  className="text-gray-400 group-hover:text-white transition-colors"
-                >
-                  (11) 4567-8900
-                </a>
-              </li>
-              <li className="flex items-center group">
-                <Mail className="w-5 h-5 text-teal-400 mr-3 group-hover:scale-110 transition-transform" />
-                <a 
-                  href="mailto:contato@mariaexcursoes.com.br"
-                  className="text-gray-400 group-hover:text-white transition-colors"
-                >
-                  contato@mariaexcursoes.com.br
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/* Informações de Contato */} 
+          <div> 
+            <h3 className="text-lg font-semibold mb-4">Contato</h3> 
+            <ul className="space-y-4"> 
+             <li 
+              className="flex items-start group cursor-pointer" 
+              onClick={handleAddressClick}
+              > 
+                <MapPin className="w-5 h-5 text-teal-400 mt-1 mr-3 group-hover:scale-110 transition-transform" /> 
+                <span className="text-gray-400 group-hover:text-white transition-colors"> 
+                  Praça Antônio Salvo Moreira, 312, Itamarandiba - MG 
+                  </span> 
+                  </li> 
+                  <li className="flex items-center group"> 
+                    <Phone className="w-5 h-5 text-teal-400 mr-3 group-hover:scale-110 transition-transform" /> 
+                    <a href="tel:+5538998850202" className="text-gray-400 group-hover:text-white transition-colors" 
+                    >
+                    (38) 9 9885-0202 
+                  </a> 
+                </li> 
+                  <li className="flex items-start group"> 
+                        <Mail className="w-5 h-5 text-teal-400 mr-3 group-hover:scale-110 transition-transform" /> 
+                        <a href="mailto: mariaexcursoeseturismo@gmail.com" className="text-gray-400 group-hover:text-white transition-colors" > 
+                          mariaexcursoeseturismo 
+                        </a> 
+                      </li> 
+                    </ul> 
+                  </div>
 
           {/* Newsletter */}
           <div>

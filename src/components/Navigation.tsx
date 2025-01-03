@@ -8,7 +8,6 @@ const Navigation = () => {
 
   const tabs = [
     { id: 'destinations', path: '/destinos', label: 'Destinos', icon: MapPin },
-    { id: 'reviews', path: '/avaliacoes', label: 'Avaliações', icon: Star },
     { id: 'contact', path: '/contato', label: 'Contato', icon: Phone },
     { id: 'about', path: '/sobre', label: 'Sobre', icon: Users },
   ];
