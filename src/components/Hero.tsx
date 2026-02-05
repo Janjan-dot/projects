@@ -2,7 +2,7 @@ import { MessageCircle, Box } from 'lucide-react';
 
 export default function Hero() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para impressão 3D personalizada.', '_blank');
+    window.open('https://wa.me/5538998935897?text=Olá! Gostaria de solicitar um orçamento para impressão 3D personalizada.', '_blank');
   };
 
   return (

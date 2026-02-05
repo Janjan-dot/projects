@@ -2,7 +2,7 @@ import { MessageCircle, Box } from 'lucide-react';
 
 export default function Footer() {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5511999999999', '_blank');
+    window.open('https://wa.me/5538998935897', '_blank');
   };
 
   return (
